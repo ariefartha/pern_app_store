@@ -2,7 +2,7 @@ import { create } from "zustand";
 import axios from "axios";
 import { toast } from "react-hot-toast";
 
-const BASE_URL = "https://pern-backend-eight.vercel.app//api";
+const BASE_URL = "https://pern-backend-eight.vercel.app/api";
 
 export const useProductStore = create((set, get) => ({
   products: [],
